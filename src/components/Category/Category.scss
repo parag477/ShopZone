@@ -6,7 +6,7 @@
         margin: 75px 0;
     }
     .layout {
-        max-width: calc(100& - 20px);
+        max-width: calc(100% - 20px);
         margin: 0 auto;
         @include md {
             max-width: 1200px;
