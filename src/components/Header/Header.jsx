@@ -30,12 +30,12 @@ const Header = () => {
     return (
     <header className={`main-header ${scrolled ? 'sticky-header' : ''}`}>
         <div className="header-content">
-            <ul>
+            <ul className="left">
                 <li>Home</li>
                 <li>About</li>
                 <li>Categories</li>
             </ul>
-            <div className="center">JSDEV</div>
+            <div className="center">SHOPZONE</div>
             <div className="right">
                 <TbSearch />
                 <AiOutlineHeart />
